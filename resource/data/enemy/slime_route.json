@@ -1,0 +1,79 @@
+{
+    "queue":
+    [
+        {
+            "time": 0,
+            "repeat": -1,
+            "id": 10,
+            "e": {
+                "bulletName": "ball_green_small",
+                "x": "obj.x",
+                "y": "obj.y",
+                "dx": "Math.sin(ex.v1)",
+                "dy": "Math.cos(ex.v1)",
+                "ex": {
+                    "v1": 0
+                },
+                "callback": "ex.v1 += 0.15;that.time+=10;"
+            }
+        },
+        {
+            "time": 0,
+            "repeat": -1,
+            "id": 10,
+            "e": {
+                "bulletName": "ball_green_small",
+                "x": "obj.x",
+                "y": "obj.y",
+                "dx": "-Math.sin(ex.v1)",
+                "dy": "-Math.cos(ex.v1)",
+                "ex": {
+                    "v1": 0
+                },
+                "callback": "ex.v1 += 0.15;that.time+=10;"
+            }
+        },
+        {
+            "time": 0,
+            "repeat": -1,
+            "id": 10,
+            "e": {
+                "bulletName": "ball_green_small",
+                "x": "obj.x",
+                "y": "obj.y",
+                "dx": "Math.sin(ex.v1 + Math.PI * 0.5)",
+                "dy": "Math.cos(ex.v1 + Math.PI * 0.5)",
+                "ex": {
+                    "v1": 0
+                },
+                "callback": "ex.v1 += 0.15;that.time+=10;"
+            }
+        },
+        {
+            "time": 0,
+            "repeat": -1,
+            "id": 10,
+            "e": {
+                "bulletName": "ball_green_small",
+                "x": "obj.x",
+                "y": "obj.y",
+                "dx": "Math.sin(ex.v1 - Math.PI * 0.5)",
+                "dy": "Math.cos(ex.v1 - Math.PI * 0.5)",
+                "ex": {
+                    "v1": 0
+                },
+                "callback": "ex.v1 += 0.15;that.time+=10;"
+            }
+        },
+        {
+            "time":500,
+            "repeat": -1,
+            "id": 4,
+            "e": {
+                "x": "if(obj.x < 340){obj.x + Math.random()*80}else{obj.x-Math.random()*130}",
+                "y": "if(obj.y < 300){obj.y + Math.random()*250}else{obj.y-Math.random()*250}",
+                "callback": "that.time+=400;"
+            }
+        }
+    ]
+}

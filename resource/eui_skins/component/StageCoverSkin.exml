@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.StageCoverSkin"
+	 width="155"
+	height="142" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="mainImage" width="155" height="142" y="0" x="0" source="cm_png"/>
+	<e:Image width="155" height="142" y="0" x="0" id="frame" source="cm_silver_png"/>
+	<e:Label id="stageName" text="NAME" y="106.508" right="5"/>
+	<e:Label text="123" y="90.2" right="5" id="stageId" x="73" size="16"/>
+</e:Skin>

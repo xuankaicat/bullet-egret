@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.MenuSceneSkin"
+	 width="1136"
+	height="640" xmlns:e="http://ns.egret.com/eui">
+	<e:Rect id="stageBg" width="1920" height="768" x="0" y="0" fillAlpha="0" visible="false"/>
+</e:Skin>

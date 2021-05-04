@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.HpBarSkin"
+	 width="185"
+	height="32" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="thumb" source="bar_hp_png" x="0" y="0"/>
+	<e:Label id="labelDisplay" verticalAlign="middle" size="20" fontFamily="Arial" visible="true" textColor="0x313030" right="12" verticalCenter="8" textAlign="right" width="185"/>
+</e:Skin>

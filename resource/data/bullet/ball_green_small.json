@@ -1,0 +1,10 @@
+{
+    "skin": "bullet_green",
+    "mc":true,
+    "dmg": 0,
+    "mult": 1,
+    "kind": 1,
+    "speed": 2,
+    "repeat": 1,
+    "route":"ball_green_small_route"
+}

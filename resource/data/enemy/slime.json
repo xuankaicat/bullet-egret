@@ -1,0 +1,12 @@
+{
+    "name": "史莱姆",
+    "skin": "love_red_png",
+    "hp": 20,
+    "atk": 20,
+    "def": 0,
+    "mdf": 0,
+    "speed": 2.0,
+    "gold": 0,
+    "exp": 0,
+    "route": "slime_route"
+}

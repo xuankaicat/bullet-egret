@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.BattleSceneSkin"
+	 width="1136"
+	height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Image source="bg_jpg" verticalCenter="0" horizontalCenter="0"/>
+	<e:Label text="Project1 Game" y="136.645" width="440.376" height="119.026" textColor="0x000000" size="60" horizontalCenter="0"/>
+	<e:Button id="btn_start" label="开始游戏" x="457.26" y="473.688" width="201.082" height="59.295"/>
+</e:Skin>

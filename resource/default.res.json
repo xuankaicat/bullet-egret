@@ -1,0 +1,325 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,bg_battle_png,love_blue_png,slime_json,love_red_png,bullet_green_png,bullet_green_json,ball_green_small_json,bar_hp_png,hp_png,operation_path_png,operation_png,sword_ani_blue_png,skill_empty_4_png,skill_empty_1_png,skill_empty_2_png,skill_empty_3_png,skill_2_sword_1_png,skill_1_moveslow_png,sword_1_json,skill_cold_png,skill_key_png,skill_cold_2_png,ball_green_small_route_json,route_empty_json,slime_route_json,hpbar_enemy_stroke_png,hpbar_enemy_png,tips_png,battle_test_json,bg_3_png,bg_0_png,bg_1_png,bg_2_png,cm_png,cm_yellow_png,cm_color_png,cm_silver_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/icon/love_blue.png",
+			"type": "image",
+			"name": "love_blue_png"
+		},
+		{
+			"url": "assets/Background/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/Background/bg_battle.png",
+			"type": "image",
+			"name": "bg_battle_png"
+		},
+		{
+			"url": "data/enemy/slime.json",
+			"type": "json",
+			"name": "slime_json"
+		},
+		{
+			"url": "assets/icon/love_red.png",
+			"type": "image",
+			"name": "love_red_png"
+		},
+		{
+			"url": "assets/Animations/bullet_green.png",
+			"type": "image",
+			"name": "bullet_green_png"
+		},
+		{
+			"url": "assets/Animations/bullet_green.json",
+			"type": "json",
+			"name": "bullet_green_json"
+		},
+		{
+			"url": "data/bullet/ball_green_small.json",
+			"type": "json",
+			"name": "ball_green_small_json"
+		},
+		{
+			"url": "assets/pictures/bar_hp.png",
+			"type": "image",
+			"name": "bar_hp_png"
+		},
+		{
+			"url": "assets/pictures/hp.png",
+			"type": "image",
+			"name": "hp_png"
+		},
+		{
+			"url": "assets/pictures/operation_path.png",
+			"type": "image",
+			"name": "operation_path_png"
+		},
+		{
+			"url": "assets/pictures/operation.png",
+			"type": "image",
+			"name": "operation_png"
+		},
+		{
+			"url": "assets/pictures/sword_ani_blue.png",
+			"type": "image",
+			"name": "sword_ani_blue_png"
+		},
+		{
+			"url": "assets/icon/skills/skill_empty_4.png",
+			"type": "image",
+			"name": "skill_empty_4_png"
+		},
+		{
+			"url": "assets/icon/skills/skill_empty_1.png",
+			"type": "image",
+			"name": "skill_empty_1_png"
+		},
+		{
+			"url": "assets/icon/skills/skill_empty_2.png",
+			"type": "image",
+			"name": "skill_empty_2_png"
+		},
+		{
+			"url": "assets/icon/skills/skill_empty_3.png",
+			"type": "image",
+			"name": "skill_empty_3_png"
+		},
+		{
+			"url": "assets/icon/skills/skill_2_sword_1.png",
+			"type": "image",
+			"name": "skill_2_sword_1_png"
+		},
+		{
+			"url": "assets/icon/skills/skill_1_moveslow.png",
+			"type": "image",
+			"name": "skill_1_moveslow_png"
+		},
+		{
+			"url": "data/bullet/sword/sword_1.json",
+			"type": "json",
+			"name": "sword_1_json"
+		},
+		{
+			"url": "assets/icon/skills/skill_cold.png",
+			"type": "image",
+			"name": "skill_cold_png"
+		},
+		{
+			"url": "assets/pictures/skill_key.png",
+			"type": "image",
+			"name": "skill_key_png"
+		},
+		{
+			"url": "assets/icon/skills/skill_cold_2.png",
+			"type": "image",
+			"name": "skill_cold_2_png"
+		},
+		{
+			"url": "data/bullet/ball_green_small_route.json",
+			"type": "json",
+			"name": "ball_green_small_route_json"
+		},
+		{
+			"url": "data/route_empty.json",
+			"type": "json",
+			"name": "route_empty_json"
+		},
+		{
+			"url": "data/enemy/slime_route.json",
+			"type": "json",
+			"name": "slime_route_json"
+		},
+		{
+			"url": "assets/pictures/hpbar_enemy_stroke.png",
+			"type": "image",
+			"name": "hpbar_enemy_stroke_png"
+		},
+		{
+			"url": "assets/pictures/hpbar_enemy.png",
+			"type": "image",
+			"name": "hpbar_enemy_png"
+		},
+		{
+			"url": "assets/pictures/tips.png",
+			"type": "image",
+			"name": "tips_png"
+		},
+		{
+			"url": "data/battle/battle_test.json",
+			"type": "json",
+			"name": "battle_test_json"
+		},
+		{
+			"url": "assets/Background/bg_3.png",
+			"type": "image",
+			"name": "bg_3_png"
+		},
+		{
+			"url": "assets/Background/bg_0.png",
+			"type": "image",
+			"name": "bg_0_png"
+		},
+		{
+			"url": "assets/Background/bg_1.png",
+			"type": "image",
+			"name": "bg_1_png"
+		},
+		{
+			"url": "assets/Background/bg_2.png",
+			"type": "image",
+			"name": "bg_2_png"
+		},
+		{
+			"url": "assets/pictures/cm.png",
+			"type": "image",
+			"name": "cm_png"
+		},
+		{
+			"url": "assets/cm_yellow.png",
+			"type": "image",
+			"name": "cm_yellow_png"
+		},
+		{
+			"url": "assets/cm_color.png",
+			"type": "image",
+			"name": "cm_color_png"
+		},
+		{
+			"url": "assets/cm_silver.png",
+			"type": "image",
+			"name": "cm_silver_png"
+		}
+	]
+}

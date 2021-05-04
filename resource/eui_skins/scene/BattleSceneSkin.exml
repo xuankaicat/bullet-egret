@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.BattleSceneSkin"
+	 width="1136"
+	height="640" xmlns:e="http://ns.egret.com/eui">
+	<e:Image horizontalCenter="0" verticalCenter="0" source="bg_battle_png"/>
+	<e:ProgressBar id="hpBar" width="185.051" height="33.073" skinName="skins.HpBarSkin" value="100" horizontalCenter="-456.5" verticalCenter="-222.5"/>
+	<e:Image source="hp_png" horizontalCenter="-528.5" verticalCenter="-242"/>
+</e:Skin>
