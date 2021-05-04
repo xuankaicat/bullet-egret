@@ -4,12 +4,12 @@ namespace xhys{
         public showIndex : number = 2;
 
         public showDeltaX : number = 0;
-        //public showDeltaY : number = 0;
         public showMoveTimer : egret.Timer = new egret.Timer(20, 0);
         public tryUpdateImg : boolean = false;
 
         public images : egret.Texture[] = [];
-        public index : number = 1;
+        //起始
+        public index : number = 0;
 
         public imageTouchEvent : (index? : number)=> void = null;
 

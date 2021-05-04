@@ -1,3 +1,11 @@
+/*
+ * @description: 
+ * @version: 
+ * @Author: xuankai
+ * @Date: 2021-02-19 00:32:47
+ * @LastEditors: xuankai
+ * @LastEditTime: 2021-05-04 22:23:33
+ */
 namespace xhys{
     export class SceneView extends egret.Sprite{
         private static _instance : SceneView;
@@ -29,10 +37,10 @@ namespace xhys{
             this.thisContainer.addChild(this.activePage);
         }
 
-        public battle(){
+        public battle(battleDataName: string){
             this.removeAll();
             var scene = BattleScene.instance;
-            scene.createView(BattleDataParse.parse(RES.getRes("battle_test_json")));
+            scene.createView(BattleDataParse.parse(RES.getRes(battleDataName)));
             this.activePage = scene;
             this.thisContainer.addChild(this.activePage);
         }

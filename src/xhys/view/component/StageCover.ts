@@ -4,7 +4,7 @@
  * @Author: xuankai
  * @Date: 2021-05-04 17:52:31
  * @LastEditors: xuankai
- * @LastEditTime: 2021-05-04 19:00:28
+ * @LastEditTime: 2021-05-04 22:14:35
  */
 namespace xhys{
     export class StageCover extends ComponentController {
@@ -12,6 +12,7 @@ namespace xhys{
         public stageId:eui.Label;
         public mainImage:eui.Image;
         public frame:eui.Image;
+        public battleDataName: string;
 
         public constructor(){
             super();
@@ -24,22 +25,22 @@ namespace xhys{
          * stageSelected
          */
         public stageSelected() {
-            egret.log(this.stageName.text+"被选择了");
+            egret.log(this.battleDataName);
+            SceneView.instance.battle(this.battleDataName);
         }
 
         /**
          * setData
          */
-        public setData(stageName: string,stageId: string = null, mainImage: egret.Texture = null) {
+        public setData(stageName: string,stageId: string = null, mainImage: egret.Texture = null, battleDataName: string = null) {
             if(stageId != null){
                 this.stageId.text = stageId;
             }
             if(stageName != null){
                 this.stageName.text = stageName;
             }
-            if(mainImage != null){
-                this.mainImage.source = mainImage;
-            }
+            this.mainImage.source = mainImage;
+            this.battleDataName = battleDataName;
         }
 
         /**

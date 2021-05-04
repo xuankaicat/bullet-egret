@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,bg_battle_png,love_blue_png,slime_json,love_red_png,bullet_green_png,bullet_green_json,ball_green_small_json,bar_hp_png,hp_png,operation_path_png,operation_png,sword_ani_blue_png,skill_empty_4_png,skill_empty_1_png,skill_empty_2_png,skill_empty_3_png,skill_2_sword_1_png,skill_1_moveslow_png,sword_1_json,skill_cold_png,skill_key_png,skill_cold_2_png,ball_green_small_route_json,route_empty_json,slime_route_json,hpbar_enemy_stroke_png,hpbar_enemy_png,tips_png,battle_test_json,bg_3_png,bg_0_png,bg_1_png,bg_2_png,cm_png,cm_yellow_png,cm_color_png,cm_silver_png",
+			"keys": "bg_jpg,bg_battle_png,love_blue_png,slime_json,love_red_png,bullet_green_png,bullet_green_json,ball_green_small_json,bar_hp_png,hp_png,operation_path_png,operation_png,sword_ani_blue_png,skill_empty_4_png,skill_empty_1_png,skill_empty_2_png,skill_empty_3_png,skill_2_sword_1_png,skill_1_moveslow_png,sword_1_json,skill_cold_png,skill_key_png,skill_cold_2_png,ball_green_small_route_json,route_empty_json,slime_route_json,hpbar_enemy_stroke_png,hpbar_enemy_png,tips_png,battle_test_json,bg_3_png,bg_0_png,bg_1_png,bg_2_png,cm_png,cm_yellow_png,cm_color_png,cm_silver_png,cm_1_1_png,stage_1_json",
 			"name": "preload"
 		}
 	],
@@ -307,19 +307,29 @@
 			"name": "cm_png"
 		},
 		{
-			"url": "assets/cm_yellow.png",
+			"url": "assets/pictures/cm_yellow.png",
 			"type": "image",
 			"name": "cm_yellow_png"
 		},
 		{
-			"url": "assets/cm_color.png",
+			"url": "assets/pictures/cm_color.png",
 			"type": "image",
 			"name": "cm_color_png"
 		},
 		{
-			"url": "assets/cm_silver.png",
+			"url": "assets/pictures/cm_silver.png",
 			"type": "image",
 			"name": "cm_silver_png"
+		},
+		{
+			"url": "assets/pictures/stagecover/cm_1_1.png",
+			"type": "image",
+			"name": "cm_1_1_png"
+		},
+		{
+			"url": "data/stage/stage_1.json",
+			"type": "json",
+			"name": "stage_1_json"
 		}
 	]
 }

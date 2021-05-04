@@ -4,7 +4,7 @@
  * @Author: xuankai
  * @Date: 2021-03-08 13:52:43
  * @LastEditors: xuankai
- * @LastEditTime: 2021-05-04 18:50:19
+ * @LastEditTime: 2021-05-04 22:19:36
  */
 namespace xhys{
     export class MenuScene extends ComponentController {
@@ -22,9 +22,13 @@ namespace xhys{
         public stageCoverGroup : StageCover[] = [];
         public stageBg:eui.Rect;
 
+        private stageDataGroup : StageData[] = []
+
         public constructor(){
             super();
             this.skinName = "resource/eui_skins/scene/MenuSceneSkin.exml";
+
+            this.initStageDataGroup();
 
             var start_x = 78;
             var add_x = 165;
@@ -42,14 +46,6 @@ namespace xhys{
                     coverGroup.push(newCover);
                 }
             }
-
-            var carousel =  this.carousel;
-            carousel.imageTouchEvent = MenuScene.onCarouselImgTouched;
-            var images = carousel.images;
-            images.push(RES.getRes("bg_0_png"));
-            images.push(RES.getRes("bg_1_png"));
-            images.push(RES.getRes("bg_2_png"));
-            images.push(RES.getRes("bg_3_png"));
 
             this.stageBg.addEventListener(egret.TouchEvent.TOUCH_END, this.closeStageGroup, this);
         }
@@ -69,12 +65,28 @@ namespace xhys{
             this.addChild(stageBoard);
         }
 
+        private initStageDataGroup(){
+            var carousel =  this.carousel;
+            carousel.imageTouchEvent = MenuScene.onCarouselImgTouched;
+            var images = carousel.images;
+
+            var stageDataGroup = this.stageDataGroup;
+            var registered = StageData.StageDataGroups;
+            registered.forEach(data => {
+                var n = stageDataGroup.push(StageDataParse.parse(RES.getRes(data+"_json"))) - 1;
+                images.push(stageDataGroup[n]._cover);
+            });
+        }
+
         public openStageGroup(){
             //设置Cover
             var carousel = this.carousel;
             var coverGroup = this.stageCoverGroup;
+            var stageDataGroup = this.stageDataGroup;
+            var index = carousel.index;
             for(var i = 0; i < 18; i++){
-                coverGroup[i].setData(carousel.index + "-" + (i+1), null, null);
+                var level = stageDataGroup[index].levels[i];
+                coverGroup[i].setData(level._name, null, level._cover, level._battleDataName);
             }
             //动画
             var stageBg = this.stageBg;

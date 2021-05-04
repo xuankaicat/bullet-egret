@@ -1,3 +1,11 @@
+/*
+ * @description: 
+ * @version: 
+ * @Author: xuankai
+ * @Date: 2021-02-25 00:16:34
+ * @LastEditors: xuankai
+ * @LastEditTime: 2021-05-04 22:36:45
+ */
 namespace xhys{
     export class BattleScene extends ComponentController {
         private static _instance : BattleScene;
@@ -28,23 +36,19 @@ namespace xhys{
             this._battleBoard.y = BattleData.side_top;
             this._battleBoard.width = BattleData.side_right - this._battleBoard.x;
             this._battleBoard.height = BattleData.side_bottom - this._battleBoard.y;
-            //this.addChild(this._battleBoard);
             this.skinName = "resource/eui_skins/scene/BattleSceneSkin.exml";
             this._bulletManager = BulletManager.instance;
             this._bulletBoard = new egret.Sprite();
-            //this._battleBoard.addChild(this._bulletBoard);
-
-            //this.createView();
 
             this.addEventListener(egret.Event.ENTER_FRAME, this.update, this);
             //this.addEventListener(egret.Event.REMOVED, this.release, this);
         }
 
-        public createView(bd : BattleData){
-            this._battleData = bd;
-            //this.addChild(bd.background);
-            this.addChildAt(bd.background, 0);
-            this._battleEnemies = bd.enemies;
+        public createView(battleData : BattleData){
+            this._battleData = battleData;
+
+            this.addChildAt(battleData.background, 0);
+            this._battleEnemies = battleData.enemies;
 
             this.addChild(this._battleBoard);
             this._battleBoard.addChild(this._bulletBoard);
@@ -60,17 +64,6 @@ namespace xhys{
             this.hpBar.value = this._battlePlayer._battlePlayerData._playerData._hp;
             this.hpBar.maximum = this._battlePlayer._battlePlayerData._playerData._maxHp;
 
-            //for(var i = 0; i < 1; i++)
-            //this._battleEnemies.push(
-            //    new BattleEnemy(
-            //        EnemyDataParse.parse(
-            //            RES.getRes("slime_json")
-            //        )
-            //    )
-            //);
-            //this._battleEnemies[1].x -= 300;
-            //this._battleEnemies[1].y += 300;
-
             this._battleEnemies.forEach(enemy => {
                 this._battleBoard.addChild(enemy);
             });
@@ -84,9 +77,7 @@ namespace xhys{
             for(var i = enemies.length - 1; i>=0; i--){
                 enemies[i].move();
             }
-            //this._battleEnemies.forEach(enemy => {
-            //    enemy.move();
-            //});
+
             this._bulletManager.updateAll();
         }
 

@@ -1,0 +1,96 @@
+{
+    "cover": "bg_1_png",
+    "name": "stage1",
+    "levels": [
+        {
+            "cover": "cm_1_1_png",
+            "name": "测试关卡",
+            "bdn": "battle_test"
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡2",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡3",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡4",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡5",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡6",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡7",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡8",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡9",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡10",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡11",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡12",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡13",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡14",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡15",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡16",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡17",
+            "bdn": null
+        },
+        {
+            "cover": "cm_png",
+            "name": "关卡18",
+            "bdn": null
+        }
+    ]
+}
