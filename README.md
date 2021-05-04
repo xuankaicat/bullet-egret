@@ -1,6 +1,2 @@
-# vscode-demo
 # bullet-egret
-# bullet-egret
-# bullet-egret
-# bullet-egret
-# bullet-egret
+一个基于egret制作的弹幕小游戏
